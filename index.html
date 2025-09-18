@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLRP - Texas Life Roleplay | FiveM Server</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <img src="logo.png" alt="TLRP Logo" class="logo"> <!-- Replace 'logo.png' with your attached logo file -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="logo.png" alt="TLRP Logo" style="height: 150px; margin-bottom: 20px;">
+        <h1>TEXAS LIFE ROLEPLAY</h1>
+        <p>Immerse yourself in authentic Texas-based roleplay as LEO, Fire, or Civilian.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="glass-effect">
+        <h2>About TLRP 🌟</h2>
+        <p>Welcome to Texas Life Roleplay (TLRP), a FiveM server focused on semi-serious roleplay in Houston/Harris County. Whether you're patrolling as Law Enforcement, responding to emergencies as Fire/EMS, or living out civilian life, our community emphasizes realism, immersion, and fun. Established in 2025, we're building the ultimate RP experience!</p>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="feature-card">
+            <h3>LEO Roleplay 🚔</h3>
+            <p>Enforce the law in a dynamic Houston/Harris County environment with custom vehicles and EUP.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Fire/EMS 🚒</h3>
+            <p>Respond to emergencies with cutting-edge rescue techniques and seamless teamwork as Fire/EMS.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Civilian RP 🏡</h3>
+            <p>Bring the world to life as a civilian; create dynamic scenes, unexpected moments, and realistic and immersive interactions</p>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="glass-effect">
+        <h2>Server Rules 📜</h2>
+        <p>Our rules ensure a fair and immersive experience for all players. Key guidelines include:</p>
+        <ul class="rules">
+            <li>Respect all players and staff – No OOC toxicity. 🙌🚫</li>
+            <li>Maintain character at all times – FailRP is not tolerated. 🎭❌</li>
+            <li>No cheating or exploits - This is also bannable by FiveM! 🎙️🔒</li>
+            <li>No Metagaming - Falls under FailRP as well. 📏🔥</li>
+        </ul>
+        <p>For full rules, join our Discord.</p>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="glass-effect">
+        <h2>How to Join 🎯</h2>
+        <p>Ready to dive into Texas Life? Follow these steps:</p>
+        <ol>
+        <li>Join our Discord by clicking the button below</a>.</li>
+        <li>Apply to any of the departments that are currently available if you are interested in roleplaying as LEO or Fire</a>.</li>
+        <li>Search up "Texas Life Roleplay" in the FiveM Server Browser</a>.</li>
+        <li>Click on "Texas Life Roleplay," join, and have fun</a>!</li>
+        </ol>
+        <a href="https://discord.gg/jtWDyTxusY" class="join-btn" target="_blank">Join Discord Now 💬</a> <!-- Replace with your actual Discord link -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>TLRP - Texas Life Roleplay. Est. 2025. 🤠🎮</p>
+    </footer>
+
+    <script>
+        // Simple scroll smooth animation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
